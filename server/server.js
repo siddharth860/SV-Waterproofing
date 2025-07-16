@@ -10,7 +10,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-mongoose.connect("mongodb://localhost:27017/waterproofing", {
+mongoose.connect("mongodb+srv://siddharthprogrammer12:Nzf4VvdnqUhBnxep@sv-cluster.eh4rh3f.mongodb.net/?retryWrites=true&w=majority&appName=SV-cluster", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })

@@ -1,7 +1,7 @@
 const bcrypt = require("bcryptjs");
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://localhost:27017/waterproofing", {
+mongoose.connect("mongodb+srv://siddharthprogrammer12:Nzf4VvdnqUhBnxep@sv-cluster.eh4rh3f.mongodb.net/?retryWrites=true&w=majority&appName=SV-cluster", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
