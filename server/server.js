@@ -7,13 +7,15 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 
 const app = express();
-app.use(bodyParser.json());
 app.use(cors({
-  origin: "*", 
-  methods: ["GET", "POST", "PUT", "DELETE"],
+  origin: "*",
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true
 }));
+app.options("*", cors());
+app.use(bodyParser.json());
+
 
 mongoose.connect("mongodb+srv://siddharthprogrammer12:Nzf4VvdnqUhBnxep@sv-cluster.eh4rh3f.mongodb.net/?retryWrites=true&w=majority&appName=SV-cluster", {
     useNewUrlParser: true,
