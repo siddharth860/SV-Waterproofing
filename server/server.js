@@ -8,7 +8,12 @@ const jwt = require("jsonwebtoken");
 
 const app = express();
 app.use(bodyParser.json());
-app.use(cors());
+app.use(cors({
+  origin: "http://localhost:3000", // or your actual frontend URL
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  allowedHeaders: ["Content-Type", "Authorization"],
+  credentials: true
+}));
 
 mongoose.connect("mongodb+srv://siddharthprogrammer12:Nzf4VvdnqUhBnxep@sv-cluster.eh4rh3f.mongodb.net/?retryWrites=true&w=majority&appName=SV-cluster", {
     useNewUrlParser: true,
