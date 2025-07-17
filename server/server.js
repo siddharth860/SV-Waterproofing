@@ -9,7 +9,7 @@ const jwt = require("jsonwebtoken");
 const app = express();
 app.use(bodyParser.json());
 app.use(cors({
-  origin: "http://localhost:3000", // or your actual frontend URL
+  origin: "http://backend:80", // or your actual frontend URL
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true
