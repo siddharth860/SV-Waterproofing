@@ -9,7 +9,7 @@ const Dashboard = () => {
   const fetchBookings = async () => {
     try {
       const token = localStorage.getItem('token');
-      const response = await axios.get('http://localhost:5000/api/book-visits', {
+      const response = await axios.get('http://backend:5000/api/book-visits', {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -28,7 +28,7 @@ const Dashboard = () => {
     if (!window.confirm("Are you sure you want to delete this booking?")) return;
     try {
       const token = localStorage.getItem('token');
-      await axios.delete(`http://localhost:5000/api/book-visits/${id}`, {
+      await axios.delete(`http://backend:5000/api/book-visits/${id}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -43,7 +43,7 @@ const Dashboard = () => {
     try {
       const token = localStorage.getItem('token');
       const response = await axios.patch(
-        `http://localhost:5000/api/book-visits/${id}`,
+        `http://backend:5000/api/book-visits/${id}`,
         { visited: !visited },
         {
           headers: {
