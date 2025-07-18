@@ -65,7 +65,7 @@ const DemoProduct = (props) => {
         // Send the data to the backend
         axios({
             method: "post",
-            url: "http://backend:5000/send-email", // Backend endpoint
+            url: "http://52.172.220.149:5000/send-email", // Backend endpoint
             data: fData,
             headers: {
                 "Content-Type": "application/json",
