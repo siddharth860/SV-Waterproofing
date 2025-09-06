@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SV-Waterproofing/static/css/main.e3837e21.css",
-    "main.js": "/SV-Waterproofing/static/js/main.fbe995bf.js",
+    "main.js": "/SV-Waterproofing/static/js/main.18ef112b.js",
     "static/media/coolroof.png": "/SV-Waterproofing/static/media/coolroof.f27b8d949a5262bc8dbc.png",
     "static/media/terrace.png": "/SV-Waterproofing/static/media/terrace.a09ec4b280e3956abd34.png",
     "static/media/base.png": "/SV-Waterproofing/static/media/base.7a2ded49ec5104933971.png",
@@ -17,10 +17,10 @@
     "index.html": "/SV-Waterproofing/index.html",
     "static/media/hero-bg.svg": "/SV-Waterproofing/static/media/hero-bg.c3b4448a16ff1a8da834.svg",
     "main.e3837e21.css.map": "/SV-Waterproofing/static/css/main.e3837e21.css.map",
-    "main.fbe995bf.js.map": "/SV-Waterproofing/static/js/main.fbe995bf.js.map"
+    "main.18ef112b.js.map": "/SV-Waterproofing/static/js/main.18ef112b.js.map"
   },
   "entrypoints": [
     "static/css/main.e3837e21.css",
-    "static/js/main.fbe995bf.js"
+    "static/js/main.18ef112b.js"
   ]
 }
