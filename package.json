@@ -2,7 +2,7 @@
   "name": "mld",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mld.ng/",
+  "homepage": "https://siddharth860.github.io/SV-Waterproofing",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
@@ -32,12 +32,12 @@
     "tailwindcss": "^3.4.3",
     "web-vitals": "^5.0.3"
   },
-  "homepage": "https://siddharth860.github.io/SV-Waterproofing"
+ 
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },

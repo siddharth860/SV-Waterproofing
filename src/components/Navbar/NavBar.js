@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import NavLinks from '../Navbar/NavLinks';
+import NavLinks from './NavLinks';
 import { HashLink } from 'react-router-hash-link';
 
 
