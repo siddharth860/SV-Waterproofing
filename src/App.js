@@ -38,7 +38,7 @@ function App() {
     <>
       <Router>
         <ScrollToTop>
-          <Routes>
+          <Routes basename="/SV-Waterproofing">
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/get-demo" element={<DemoProduct />} />
