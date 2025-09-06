@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/SV-Waterproofing/static/css/main.e3837e21.css",
+    "main.js": "/SV-Waterproofing/static/js/main.5bb3f15c.js",
+    "static/media/coolroof.png": "/SV-Waterproofing/static/media/coolroof.f27b8d949a5262bc8dbc.png",
+    "static/media/terrace.png": "/SV-Waterproofing/static/media/terrace.a09ec4b280e3956abd34.png",
+    "static/media/base.png": "/SV-Waterproofing/static/media/base.7a2ded49ec5104933971.png",
+    "static/media/roof.png": "/SV-Waterproofing/static/media/roof.21df9d64c682d63741f7.png",
+    "static/media/aboutimg.png": "/SV-Waterproofing/static/media/aboutimg.63954dc03fe4d5987a97.png",
+    "static/media/fosroc.jpg": "/SV-Waterproofing/static/media/fosroc.899f43f52b9e212ccec0.jpg",
+    "static/media/WP_front.png": "/SV-Waterproofing/static/media/WP_front.0f6ecf81c36f8e77f575.png",
+    "static/media/zycoprime.jpg": "/SV-Waterproofing/static/media/zycoprime.f380f59c9fa897571db3.jpg",
+    "static/media/asian.JPG": "/SV-Waterproofing/static/media/asian.8da58baf735d4f59aead.JPG",
+    "static/media/zycosil.jpg": "/SV-Waterproofing/static/media/zycosil.08209165efe0087de1e7.jpg",
+    "static/media/asian.png": "/SV-Waterproofing/static/media/asian.1dee329c17fa880e5d2f.png",
+    "static/media/footer.svg": "/SV-Waterproofing/static/media/footer.70b54bbe52a797ce69c1.svg",
+    "index.html": "/SV-Waterproofing/index.html",
+    "static/media/hero-bg.svg": "/SV-Waterproofing/static/media/hero-bg.c3b4448a16ff1a8da834.svg",
+    "main.e3837e21.css.map": "/SV-Waterproofing/static/css/main.e3837e21.css.map",
+    "main.5bb3f15c.js.map": "/SV-Waterproofing/static/js/main.5bb3f15c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3837e21.css",
+    "static/js/main.5bb3f15c.js"
+  ]
+}
